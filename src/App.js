@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import MUIDataTable from "mui-datatables";
+import NavMain from "./components/NavMain";
+import LogsPage from "./views/LogsPage";
+import ProductsPage from "./views/ProductsPage";
+import VisitorPage from "./views/VisitorPage";
+import { Switch, Route } from "react-router-dom";
+import Header from "./components/Header";
+import { Flex, Button } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Flex direction="column" height="100%">
+      <Header />
+      <Flex grow="1" schrink="1" basic="auto">
+        <NavMain />
+        <Switch>
+          <Route exact path="/" component={ProductsPage} />
+          <Route exact path="/visitors" component={VisitorPage} />
+          <Route exact path="/logs" component={LogsPage} />
+        </Switch>
+      </Flex>
+    </Flex>
   );
 }
 

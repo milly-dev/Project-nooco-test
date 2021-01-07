@@ -1,0 +1,42 @@
+{
+    "products": [
+      {"article_id": 1001,  "brand": "Levis",    "article_type": "jeans",    "article": "501",    "price": "99"},
+      {"article_id": 1002,  "brand": "Levis",     "article_type": "jeans",    "article": "511",    "price": "119"},
+      {"article_id": 2001,  "brand": "Gap",    "article_type": "jeans",   "article": "Slim natural",    "price": "99"},
+      {"article_id": 2002,  "brand": "Gap",   "article_type": "jeans",    "article": "Skinny",    "price": "119"},
+      {"article_id": 2003,     "brand": "Gap",    "article_type": "jeans",    "article": "Droit",    "price": "109"},
+      {"article_id": 3001,     "brand": "Diesel",   "article_type": "jeans",   "article": "Skinny",    "price": "129"},
+      {"article_id": 3002,     "brand": "Diesel",   "article_type": "jeans",    "article": "Slim",    "price": "139"}
+      
+    ],
+    "visitors": [
+        {"visitor_name": "Marting",  "first_name": "Gabriel",    "id": 24,    "email": "g.martin@gmail.com",    "last_log": "2021/01/01", "number_of_log_this_month": 2, "number_of_articles_view": 4, "already_booked": "yes"},
+        {"visitor_name": "Petit",  "first_name": "Marie",     "id": 25,    "email": "m.petit@gmailcom",    "last_log": "2021/01/04", "number_of_log_this_month": 1, "number_of_articles_view": 5, "already_booked": "yes"},
+        {"visitor_name": "Robert",  "first_name": "Luc",    "id": 26,   "email": "l.robert@gmail.com",    "last_log": "2021/01/03", "number_of_log_this_month": 5, "number_of_articles_view": 7, "already_booked": "yes"},
+        {"visitor_name": "Richard",  "first_name": "Stéphanie",   "id": 27,    "email": "s.richard@gmail.com",    "last_log": "2020/12/11", "number_of_log_this_month": 0, "number_of_articles_view": 2, "already_booked": "no"}
+      ],
+      "logs": [
+        {"article_id": 1001,  "user_id": 24,    "date_of_clic": "2021/01/01",    "time_viewing": 20,    "buy_after_click": "yes"},
+        {"article_id": 1002,  "user_id": 24,     "date_of_clic": "2021/01/01",    "time_viewing": 25,    "buy_after_click": "no"},
+        {"article_id": 2001,  "user_id": 24,    "date_of_clic": "2021/01/01",   "time_viewing": 22,    "buy_after_click": "yes"},
+        {"article_id": 2002,  "user_id": 24,   "date_of_clic": "2021/01/01",    "time_viewing": 20,    "buy_after_click": "no"},
+        {"article_id": 2001,     "user_id": 25,    "date_of_clic": "2021/01/04",    "time_viewing": 8,    "buy_after_click": "yes"},
+
+        {"article_id": 2002,     "user_id": 25,   "date_of_clic": "2021/01/04",   "time_viewing": 7,    "buy_after_click": "no"},
+        {"article_id": 2003,     "user_id": 25,   "date_of_clic": "2021/01/04",    "time_viewing": 9,    "buy_after_click": "yes"},
+        {"article_id": 3001,     "user_id": 25,   "date_of_clic": "2021/01/04",    "time_viewing": 10,    "buy_after_click": "yes"},
+        {"article_id": 3002,  "user_id": 25,    "date_of_clic": "2021/01/04",    "time_viewing": 7,    "buy_after_click": "no"},
+        {"article_id": 1001,  "user_id": 26,     "date_of_clic": "2021/01/03",    "time_viewing": 5,    "buy_after_click": "yes"},
+
+        {"article_id": 1002,  "user_id": 26,    "date_of_clic": "2021/01/03",   "time_viewing": 4,    "buy_after_click": "no"},
+        {"article_id": 2001,  "user_id": 26,   "date_of_clic": "2021/01/03",    "time_viewing": 5,    "buy_after_click": "yes"},
+        {"article_id": 2002,     "user_id": 26,    "date_of_clic": "2021/01/03",    "time_viewing": 5,    "buy_after_click": "no"},
+        {"article_id": 2003,     "user_id": 26,   "date_of_clic": "2021/01/03",   "time_viewing": 4,    "buy_after_click": "no"},
+        {"article_id": 3001,     "user_id": 26,   "date_of_clic": "2021/01/03",    "time_viewing": 3,    "buy_after_click": "no"},
+
+        {"article_id": 3002,     "user_id": 26,   "date_of_clic": "2021/01/03",    "time_viewing": 4,    "buy_after_click": "no"},
+        {"article_id": 1001,  "user_id": 27,    "date_of_clic": "2020/12/01",    "time_viewing": 32,    "buy_after_click": "no"},
+        {"article_id": 1002,  "user_id": 27,     "date_of_clic": "2020/12/01",    "time_viewing": 27,    "buy_after_click": "no"}
+      ]
+
+  }
