@@ -15,7 +15,7 @@ function App() {
       <Flex grow="1" schrink="1" basic="auto">
         <NavMain />
         <Switch>
-          <Route exact path="/" component={ProductsPage} />
+          <Route exact path="/Project-nooco-test" component={ProductsPage} />
           <Route exact path="/visitors" component={VisitorPage} />
           <Route exact path="/logs" component={LogsPage} />
         </Switch>
