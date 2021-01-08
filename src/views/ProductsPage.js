@@ -21,7 +21,7 @@ export const Products = () => {
     {data.products.map(product => (
     <Tr>
       <Td>{product.article_id}</Td>
-      <Td><Avatar border="1px solid #eee" bg="white" src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1410845468/dsjoo3sf1c6xxsufklkh.png" name={product.brand} /></Td>
+      <Td><Avatar border="1px solid #eee" bg="white" src={product.brand_url} name={product.brand} /></Td>
       <Td><Tag>{product.article_type}</Tag></Td>
       <Td>{product.article}</Td>
       <Td isNumeric>{product.price}€</Td>
