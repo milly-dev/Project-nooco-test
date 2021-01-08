@@ -1,6 +1,7 @@
 # Nooco Test
 
 This is a react application which is displaying 3 data tables.
+You can access to the deployed version here : 
 
 ### Dependencies
 
