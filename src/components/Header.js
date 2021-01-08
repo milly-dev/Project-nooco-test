@@ -16,7 +16,14 @@ const Header = () => {
       </Box>
       <Spacer />
       <Box>
-        <Button colorScheme="teal" mr="4" as="a" exact href="https://github.com/milly-dev" target="_blank">
+        <Button
+          colorScheme="teal"
+          mr="10"
+          as="a"
+          exact
+          href="https://github.com/milly-dev"
+          target="_blank"
+        >
           Mon Github
         </Button>
       </Box>

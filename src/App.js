@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import MUIDataTable from "mui-datatables";
 import NavMain from "./components/NavMain";
 import LogsPage from "./views/LogsPage";
 import ProductsPage from "./views/ProductsPage";
 import VisitorPage from "./views/VisitorPage";
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
-import { Flex, Button } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 
 function App() {
   return (
