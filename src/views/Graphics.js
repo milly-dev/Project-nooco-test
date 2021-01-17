@@ -4,7 +4,7 @@ import BarChartVisitors from '../components/BarChartVisitors';
 import BarChartLogs from '../components/BarChartLogs';
 
 
-export const Donne = () => {
+export const Graphics = () => {
     return (
         <div>
  <BarChartVisitors
@@ -30,4 +30,4 @@ export const Donne = () => {
      
     )
 }
-export default Donne;
+export default Graphics;

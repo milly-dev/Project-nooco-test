@@ -14,8 +14,8 @@ const NavMain = () => {
 <Button colorScheme="teal" size="md" width="100%" as={NavLink} exact to="/logs" variant="ghost" m="4px 0">
 Logs
 </Button>
-<Button colorScheme="teal" size="md" width="100%" as={NavLink} exact to="/donne" variant="ghost" m="4px 0">
-Donne
+<Button colorScheme="teal" size="md" width="100%" as={NavLink} exact to="/graphics" variant="ghost" m="4px 0">
+Graphics
 </Button>
     </Flex>
   );
