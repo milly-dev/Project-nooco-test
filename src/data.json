@@ -1,10 +1,10 @@
 {
     "products": [
-      {"article_id": 1001,  "brand_url": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1410845468/dsjoo3sf1c6xxsufklkh.png","brand": "Levis",    "article_type": "jeans",    "article": "501",    "price": "99"},
-      {"article_id": 1002,  "brand_url": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1410845468/dsjoo3sf1c6xxsufklkh.png","brand": "Levis",     "article_type": "jeans",    "article": "511",    "price": "119"},
-      {"article_id": 2001,  "brand_url": "https://banner2.cleanpng.com/20180420/tjq/kisspng-gap-inc-logo-retail-brand-c-a-jeans-vector-5ada3e382bdfb0.2225777715242522161797.jpg","brand": "Gap",    "article_type": "jeans",   "article": "Slim natural",    "price": "99"},
-      {"article_id": 2002,  "brand_url": "https://banner2.cleanpng.com/20180420/tjq/kisspng-gap-inc-logo-retail-brand-c-a-jeans-vector-5ada3e382bdfb0.2225777715242522161797.jpg","brand": "Gap",   "article_type": "jeans",    "article": "Skinny",    "price": "119"},
-      {"article_id": 2003,     "brand_url": "https://banner2.cleanpng.com/20180420/tjq/kisspng-gap-inc-logo-retail-brand-c-a-jeans-vector-5ada3e382bdfb0.2225777715242522161797.jpg","brand": "Gap",    "article_type": "jeans",    "article": "Droit",    "price": "109"},
+      {"article_id": 1001,  "brand_url": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1410845468/dsjoo3sf1c6xxsufklkh.png","brand": "Levis",    "article_type": "jeans",    "article": "501",    "price": 99},
+      {"article_id": 1002,  "brand_url": "https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1410845468/dsjoo3sf1c6xxsufklkh.png","brand": "Levis",     "article_type": "jeans",    "article": "511",    "price": 119},
+      {"article_id": 2001,  "brand_url": "https://banner2.cleanpng.com/20180420/tjq/kisspng-gap-inc-logo-retail-brand-c-a-jeans-vector-5ada3e382bdfb0.2225777715242522161797.jpg","brand": "Gap",    "article_type": "jeans",   "article": "Slim natural",    "price": 99},
+      {"article_id": 2002,  "brand_url": "https://banner2.cleanpng.com/20180420/tjq/kisspng-gap-inc-logo-retail-brand-c-a-jeans-vector-5ada3e382bdfb0.2225777715242522161797.jpg","brand": "Gap",   "article_type": "jeans",    "article": "Skinny",    "price": 119},
+      {"article_id": 2003,     "brand_url": "https://banner2.cleanpng.com/20180420/tjq/kisspng-gap-inc-logo-retail-brand-c-a-jeans-vector-5ada3e382bdfb0.2225777715242522161797.jpg","brand": "Gap",    "article_type": "jeans",    "article": "Droit",    "price": 109},
       {"article_id": 3001,     "brand_url": "https://assets.stickpng.com/thumbs/5a1ac893f65d84088faf1372.png","brand": "Diesel",   "article_type": "jeans",   "article": "Skinny",    "price": "129"},
       {"article_id": 3002,     "brand_url": "https://assets.stickpng.com/thumbs/5a1ac893f65d84088faf1372.png","brand": "Diesel",   "article_type": "jeans",    "article": "Slim",    "price": "139"}
       

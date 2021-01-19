@@ -29,8 +29,8 @@ class BarChartVisitors extends Component {
                     return "rgba(55, 64, 100, 1)";
                 }),
                 borderWidth: 1}]}}
-                height={400}
-                width={600}
+                height={300}
+                width={700}
                 option={{ maintainAspectRatio: false}}
                 />
     

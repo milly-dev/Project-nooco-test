@@ -1,0 +1,15 @@
+
+.graph--time-view {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 30px;
+   flex-direction: column;
+}
+
+
+.graph-style-users{
+display: flex;
+padding-left: 50px;
+}
+

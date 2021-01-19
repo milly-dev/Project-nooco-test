@@ -11,7 +11,7 @@ class BarChartLogs extends Component {
             labels: this.props.consultationDates,
             datasets: [
               {
-                label: "Time Viewing",
+                label: this.props.title,
                 data: this.props.timeViewing,
                 backgroundColor: this.props.timeViewing.map(() => {
                     return "rgba(63, 0, 208, 0.5)";
@@ -23,9 +23,9 @@ class BarChartLogs extends Component {
               },
             ],
           }}
-          height={400}
-          width={600}
-          option={{ maintainAspectRatio: false }}
+          height={300}
+          width={1400}
+          option={{ maintainAspectRatio: true }}
         />
       </div>
     );
